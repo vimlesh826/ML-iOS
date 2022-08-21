@@ -11,6 +11,15 @@
 		0469607828B0FB0800519110 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469607728B0FB0800519110 /* ContentView.swift */; };
 		0469607A28B0FB0900519110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0469607928B0FB0900519110 /* Assets.xcassets */; };
 		0469607D28B0FB0900519110 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0469607C28B0FB0900519110 /* Preview Assets.xcassets */; };
+		0469608728B0FC6E00519110 /* SalaryPredictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469608628B0FC6E00519110 /* SalaryPredictionView.swift */; };
+		0469608928B0FFE100519110 /* SalaryPredictionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469608828B0FFE100519110 /* SalaryPredictionViewModel.swift */; };
+		0469608B28B1124500519110 /* SalaryPredictionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469608A28B1124500519110 /* SalaryPredictionModel.swift */; };
+		0469608D28B168A700519110 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469608C28B168A700519110 /* APIClient.swift */; };
+		0469608F28B168DF00519110 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469608E28B168DF00519110 /* Endpoints.swift */; };
+		0469609128B168F600519110 /* EndpointConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469609028B168F600519110 /* EndpointConfigurator.swift */; };
+		0469609328B1691C00519110 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469609228B1691C00519110 /* APIModels.swift */; };
+		0469609628B1697C00519110 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469609528B1697C00519110 /* BaseView.swift */; };
+		620035BE69831C853B45109D /* Pods_ML_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF61FA771A430FCAE5180DA /* Pods_ML_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,17 @@
 		0469607728B0FB0800519110 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0469607928B0FB0900519110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0469607C28B0FB0900519110 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0469608628B0FC6E00519110 /* SalaryPredictionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryPredictionView.swift; sourceTree = "<group>"; };
+		0469608828B0FFE100519110 /* SalaryPredictionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryPredictionViewModel.swift; sourceTree = "<group>"; };
+		0469608A28B1124500519110 /* SalaryPredictionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryPredictionModel.swift; sourceTree = "<group>"; };
+		0469608C28B168A700519110 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		0469608E28B168DF00519110 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		0469609028B168F600519110 /* EndpointConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointConfigurator.swift; sourceTree = "<group>"; };
+		0469609228B1691C00519110 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		0469609528B1697C00519110 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		5CD764661538E3AF448340D5 /* Pods-ML-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-iOS.release.xcconfig"; path = "Target Support Files/Pods-ML-iOS/Pods-ML-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		CDF61FA771A430FCAE5180DA /* Pods_ML_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF83FBC6A4D8F28A5E5DDA6 /* Pods-ML-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-iOS.debug.xcconfig"; path = "Target Support Files/Pods-ML-iOS/Pods-ML-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620035BE69831C853B45109D /* Pods_ML_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +58,8 @@
 			children = (
 				0469607428B0FB0800519110 /* ML-iOS */,
 				0469607328B0FB0800519110 /* Products */,
+				5101925A3FC1ABC31A3E30C6 /* Pods */,
+				E4B018348DBAE031063F5705 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +74,10 @@
 		0469607428B0FB0800519110 /* ML-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0469608328B0FB1500519110 /* Modules */,
+				0469609428B1693B00519110 /* BaseClasses */,
+				0469608528B0FC4C00519110 /* Services */,
 				0469607528B0FB0800519110 /* ML_iOSApp.swift */,
-				0469607728B0FB0800519110 /* ContentView.swift */,
 				0469607928B0FB0900519110 /* Assets.xcassets */,
 				0469607B28B0FB0900519110 /* Preview Content */,
 			);
@@ -67,6 +92,61 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0469608328B0FB1500519110 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0469607728B0FB0800519110 /* ContentView.swift */,
+				0469608428B0FB1B00519110 /* SalaryPrediction */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0469608428B0FB1B00519110 /* SalaryPrediction */ = {
+			isa = PBXGroup;
+			children = (
+				0469608628B0FC6E00519110 /* SalaryPredictionView.swift */,
+				0469608828B0FFE100519110 /* SalaryPredictionViewModel.swift */,
+				0469608A28B1124500519110 /* SalaryPredictionModel.swift */,
+			);
+			path = SalaryPrediction;
+			sourceTree = "<group>";
+		};
+		0469608528B0FC4C00519110 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0469608C28B168A700519110 /* APIClient.swift */,
+				0469608E28B168DF00519110 /* Endpoints.swift */,
+				0469609028B168F600519110 /* EndpointConfigurator.swift */,
+				0469609228B1691C00519110 /* APIModels.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0469609428B1693B00519110 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				0469609528B1697C00519110 /* BaseView.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		5101925A3FC1ABC31A3E30C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFF83FBC6A4D8F28A5E5DDA6 /* Pods-ML-iOS.debug.xcconfig */,
+				5CD764661538E3AF448340D5 /* Pods-ML-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4B018348DBAE031063F5705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDF61FA771A430FCAE5180DA /* Pods_ML_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0469608028B0FB0900519110 /* Build configuration list for PBXNativeTarget "ML-iOS" */;
 			buildPhases = (
+				001E70CC9C34A25B2EFB81D1 /* [CP] Check Pods Manifest.lock */,
 				0469606E28B0FB0800519110 /* Sources */,
 				0469606F28B0FB0800519110 /* Frameworks */,
 				0469607028B0FB0800519110 /* Resources */,
+				136896EFFE4CA989FCD29547 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +214,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		001E70CC9C34A25B2EFB81D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ML-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		136896EFFE4CA989FCD29547 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-iOS/Pods-ML-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-iOS/Pods-ML-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML-iOS/Pods-ML-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0469606E28B0FB0800519110 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0469609328B1691C00519110 /* APIModels.swift in Sources */,
+				0469608B28B1124500519110 /* SalaryPredictionModel.swift in Sources */,
+				0469609128B168F600519110 /* EndpointConfigurator.swift in Sources */,
+				0469608728B0FC6E00519110 /* SalaryPredictionView.swift in Sources */,
 				0469607828B0FB0800519110 /* ContentView.swift in Sources */,
+				0469608F28B168DF00519110 /* Endpoints.swift in Sources */,
 				0469607628B0FB0800519110 /* ML_iOSApp.swift in Sources */,
+				0469609628B1697C00519110 /* BaseView.swift in Sources */,
+				0469608928B0FFE100519110 /* SalaryPredictionViewModel.swift in Sources */,
+				0469608D28B168A700519110 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +393,7 @@
 		};
 		0469608128B0FB0900519110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF83FBC6A4D8F28A5E5DDA6 /* Pods-ML-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -281,15 +414,16 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vimleshKumar.ML-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ML-iOS";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0469608228B0FB0900519110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD764661538E3AF448340D5 /* Pods-ML-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,10 +444,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vimleshKumar.ML-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ML-iOS";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
